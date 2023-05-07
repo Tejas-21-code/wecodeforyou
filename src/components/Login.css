@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.box input {
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.box button {
+  width: 80px;
+  padding: 12px;
+  background-color: rgb(167, 250, 250);
+  border-radius: 10px;
+}

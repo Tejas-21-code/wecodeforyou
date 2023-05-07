@@ -1,0 +1,67 @@
+.task {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+}
+
+.input {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.input input {
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+.input button {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tasks {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.bo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  background-color: rgb(197, 197, 197);
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+
+.bo p {
+  background-color: rgb(197, 197, 197);
+}
+
+.bo button {
+  padding: 10px;
+}
+
+.storage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(197, 197, 197);
+}
+
+.storage input {
+  background-color: rgb(197, 197, 197);
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
